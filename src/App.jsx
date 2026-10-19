@@ -7,7 +7,7 @@ import Panel from "./components";
 // const N = 22
 
 function App() {
-  const number = 9;
+  // const number = 9;
   return (
     <>
       {/* <div>
@@ -18,7 +18,21 @@ function App() {
       </div> */}
 
       <Panel judul="Menu Hari ini">
-        
+        <KartuMenu 
+        nama="Nasi Ayam Geprek"
+        harga="13.700"
+        kategori="Makanan">
+        </KartuMenu>
+        <KartuMenu 
+        nama="Es Teh Lemon"
+        harga="6.000"
+        kategori="Minuman">
+        </KartuMenu>
+        <KartuMenu 
+        nama="Mie Goreng Telor"
+        harga="12.000"
+        kategori="Makanan">
+        </KartuMenu>
       </Panel>
     </>
   )
